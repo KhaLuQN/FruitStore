@@ -1,0 +1,76 @@
+.errors-message {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+  font-style: italic;
+}
+
+.mt20 {
+  margin-top: 20px;
+}
+.mb20 {
+  margin-bottom: 20px;
+}
+h5 {
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
+table strong {
+  min-width: 38px;
+  display: inline-block;
+}
+
+.table > thead > tr > th,
+.table > tbody > tr > th,
+.table > tfoot > tr > th,
+.table > thead > tr > td,
+.table > tbody > tr > td,
+.table > tfoot > tr > td {
+  vertical-align: middle;
+  text-align: center;
+}
+
+.filer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.filer label {
+  font-weight: bold;
+}
+
+.filer .form-control {
+  display: inline-block;
+  width: auto;
+  vertical-align: middle;
+}
+
+.filer .btn {
+  vertical-align: middle;
+}
+
+.uk-flex.uk-flex-middle {
+  display: flex;
+  align-items: center;
+}
+
+.uk-flex-middle .form-control {
+  margin-left: 10px;
+}
+.filer .search {
+  display: flex;
+}
+
+/* Định dạng cho lớp phủ */
+.overlay {
+  display: none; /* Ẩn lớp phủ mặc định */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Màu nền nửa trong suốt */
+  z-index: 0; /* Đặt lớp phủ ở phía dưới form */
+  transition: opacity 0.3s ease; /* Hiệu ứng chuyển tiếp khi hiển thị lớp phủ */
+}
